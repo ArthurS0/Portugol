@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+
+int qtd_de_maçãs;
+float valor_total;
+
+setlocale(LC_ALL,"");
+printf("Digite a quantidade de maçãs compradas: ");
+scanf("%d", &qtd_de_maçãs);
+
+valor_total=qtd_de_maçãs*0.25;
+
+if(qtd_de_maçãs>=12){
+    printf("O valor total da compra é de:R$%2.f", valor_total);
+    
+}else{
+    
+    valor_total=qtd_de_maçãs*0.30;
+    printf("O valor total da compra é de:R$%2.f", valor_total);
+}    
+
+return 0;
+
+}
