@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+
+int a, b;
+
+setlocale(LC_ALL,"");
+printf("Digite o primeiro valor: ");
+scanf("%d", &a);
+
+printf("Digite o segundo valor: ");
+scanf("%d", &b);
+
+if(a>b){
+printf("O maior valor é:%2.d", a);
+}else{
+    printf("O maior valor é:%2.d", b);
+}
+
+return 0;
+
+}
