@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+
+int a;
+
+setlocale(LC_ALL,"");
+printf("Digite a senha: ");
+scanf("%d", &a);
+
+if(a==1234){
+    printf("ACESSO PERMITIDO");
+    
+}else{
+    printf("ACESSO NEGADO");
+}    
+
+return 0;
+
+}
