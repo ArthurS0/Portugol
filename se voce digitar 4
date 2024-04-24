@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+    for (;;) {
+        printf("Se voçe digitar o numero 4, o programa ira encerrar): ");
+        scanf("%d", &numero);
+
+        if (numero == 4) {
+            break;
+        }
+    }
+
+    printf("Você digitou o número 4. O programa terminou.\n");
+
+    return 0;
+}
