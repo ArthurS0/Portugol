@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main(){
+    int numeral;
+    for (numeral =20; numeral >=1 ; numeral--)
+    printf("%d\n", numeral);
+    return 0;
+}
