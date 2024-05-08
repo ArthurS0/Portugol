@@ -1,0 +1,68 @@
+#include <stdio.h>
+
+int main(){
+    
+int cálculo;
+int a, b, c;
+
+printf("Digite uma opção de 1 a 4 sendo:\n1 - soma\n2 - subtração\n3- divisão\n4 - multiplicação\n\n");
+scanf("%d", &cálculo);
+
+switch(cálculo){
+    
+case 1:
+
+printf("Digite o primeiro valor: ");
+scanf("%d", &a);
+
+printf("Digite o segundo valor: ");
+scanf("%d", &b);
+
+c = a+b;
+
+printf("A soma é: %d", c);
+break;
+
+case 2:
+
+printf("Digite o primeiro valor: ");
+scanf("%d", &a);
+
+printf("Digite o segundo valor: ");
+scanf("%d", &b);
+
+c = a-b;
+
+printf("A subtração é: %d", c);
+break;
+
+case 3:
+
+printf("Digite o primeiro valor: ");
+scanf("%d", &a);
+
+printf("Digite o segundo valor: ");
+scanf("%d", &b);
+
+c = a/b;
+
+printf("A divisão é: %d", c);
+break;
+
+case 4:
+
+printf("Digite o primeiro valor: ");
+scanf("%d", &a);
+
+printf("Digite o segundo valor: ");
+scanf("%d", &b);
+
+c = a*b;
+
+printf("A multiplicação é: %d", c);
+break;
+}
+
+return 0;
+
+}
