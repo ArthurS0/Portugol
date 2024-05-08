@@ -5,7 +5,7 @@ int main(){
 int cálculo;
 int a, b, c;
 
-printf("Digite uma opção de 1 a 4 sendo:\n1 - soma\n2 - subtração\n3- divisão\n4 - multiplicação\n\n");
+printf("Digite uma opção de 1 a 4 sendo:\n1 - soma\n2 - subtração\n3- divisão\n4 - multiplicação\n5 - sair\n\n");
 scanf("%d", &cálculo);
 
 switch(cálculo){
@@ -61,8 +61,11 @@ c = a*b;
 
 printf("A multiplicação é: %d", c);
 break;
-}
 
-return 0;
+case 5:
+
+printf("O programa encerrou.");
+break;
+}
 
 }
