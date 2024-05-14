@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+    
+    int numero;
+    
+    for(;;){
+        printf("Escolha 1 ou 0: ");
+        scanf("%d", &numero);
+        
+    if(numero > 1 ){    
+        printf("Valor inválido inserido. Por favor, escolha 1 ou 0.\n");
+    }else{
+break;
+}
+}
+
+return 0;
+
+}
