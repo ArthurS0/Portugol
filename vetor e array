@@ -7,7 +7,7 @@ int main()
 
    for(cont=0 ; cont<10 ; cont++)
      cout << "Espaço alocado: " << num[cont] << "\n";
-return 0;
+
 }
 
 #include <iostream>
@@ -22,7 +22,7 @@ int main()
 
    for(cont=0 ; cont<10 ; cont++)
        cout << "Elemento " << cont+1 << ": " << num[cont] << endl;
-  return 0;
+
 }
 
 #include <iostream>
@@ -45,7 +45,7 @@ int main()
     sum /= 5;
 
     cout<<"Media: "<<sum<<endl;
-return 0;
+
 }
 
 #include <iostream>
@@ -61,7 +61,7 @@ int main()
 
     for(cont=1 ; cont<ARRAY_SIZE ; cont++)
         cout<<"Dobro de "<<cont<<": "<<num[cont]<<endl;
-return 0;
+
 }
 
 #include <iostream>
@@ -81,5 +81,5 @@ int main()
     cout<<"Imposto a pagar: "<<endl;
     for(cont=0 ; cont<ARRAY_SIZE ; cont++)
         cout<<"Funcionario "<<cont+1<<": R$"<<func[cont]*0.15<<endl;
-return 0;
+
 }
